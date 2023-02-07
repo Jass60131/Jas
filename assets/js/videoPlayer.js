@@ -6,5 +6,7 @@ function videoPlay() {
   
   window.addEventListener('click', () =>{
     document.getElementById("song").play();
+    document.getElementById("song").loop=true;
+    document.getElementById("song").volume= 0.2;
   });
    
