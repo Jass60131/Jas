@@ -4,3 +4,7 @@ function videoPlay() {
     video.volume = 0.5;
   }
   
+  window.addEventListener('click', () =>{
+    document.getElementById("song").play();
+  });
+   
