@@ -5,10 +5,11 @@
   background-color: black;
 }
 
-#centeredmenu {
-   clear:both;
-   min-width: 220px;
-   margin: auto;
+@media screen and (max-width: 959px){
+body .entry-content .alignfull {
+    margin-left: 0 !important;
+}
+}
 }
 
 body {
