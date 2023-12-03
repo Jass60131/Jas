@@ -5,10 +5,30 @@
   background-color: black;
 }
 
-@media screen and (max-width: 959px){
-body .entry-content .alignfull {
-    margin-left: 0 !important;
-}
+#page
+
+{
+
+          z-index: 1;
+
+          width: 960px;
+
+          min-height: 600px;
+
+          overflow:hidden;
+
+          background-image: none;
+
+          border-style: none;
+
+          border-color: transparent;
+
+          background-color: #EBEBEB;
+
+          margin-left: auto;
+
+          margin-right: auto;
+
 }
 }
 
