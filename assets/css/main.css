@@ -10,7 +10,9 @@
 #unfloated-container{
     width: 1000px;
 }
-}
+
+{margin-left: auto;
+margin-right: auto;}
 
 body {
   background-color: #5e5e5e;
